@@ -4,6 +4,14 @@
     --z-fixed: 100;
 }
 
+body {
+    background-image: url(imgs/purple_wallpaper.jpg);
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -48,6 +56,9 @@ header {
   }
 
 .bd-grid {
+    padding: 0 10rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
     display: grid;
     gap: 1.5rem;
 }
@@ -101,7 +112,6 @@ header {
 }
 
 .links li a:hover {
-    text-decoration: underline;
     color: aqua;
 }
 
@@ -140,5 +150,18 @@ header {
 
 .home-container {
     height: calc(100vh - var(--header-height));
-    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-img {
+    border-radius: 100%;
+}
+
+.sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
